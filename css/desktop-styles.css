@@ -1,13 +1,48 @@
+/* made the body a css grid */
+body {
+  margin: 0;
+  display: grid;
+  grid-template-areas:
+  'header header header ratings ratings ratings'
+  'social social social social social social'
+  'footer footer footer footer footer footer'
+}
+
+/* Header Section */
+.header {
+  grid-area: header;
+  background-color: pink;
+}
+
+/* Ratings Section */
+.ratings {
+  grid-area: ratings;
+  background-color: lightgreen;
+}
+
+/* Social Section */
+.social {
+  grid-area: social;
+  background-color: grey;
+}
+
+.user {
+  display: inline-block;
+  width: 30%;
+  background-color: blue;
+}
 
 
 
-
-
-/* Styles for the footer section */
+/* Footer section */
+.footer {
+  grid-area: footer;
+}
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.67em;
   text-align: center;
+  background-color: magenta;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
