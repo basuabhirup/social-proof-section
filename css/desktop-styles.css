@@ -14,9 +14,8 @@ body {
 /* ---------------Header Section-------------------- */
 .header {
   grid-area: header;
-  margin: 20% auto 5% 20%;
-  padding: 2% 0;
-  min-width: 25rem;
+  margin: 20% auto 5% 25%;
+  padding: 5%;
   background-color: pink;
 }
 
@@ -40,7 +39,7 @@ h1 {
   align-items: center;
   grid-template-rows: auto auto auto;
   grid-area: ratings;
-  margin: 20% 20% 5% auto;
+  margin: 20% 25% 5% auto;
   font-weight: bold;
   background-color: lightgreen;
 }
@@ -83,7 +82,7 @@ h4 {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  margin: 5% 8rem;
+  margin: 5% 10%;
   justify-content: space-between;
   grid-area: social;
   background-color: grey;
