@@ -3,32 +3,51 @@ body {
   margin: 0;
   display: grid;
   grid-template-areas:
-  'header header header ratings ratings ratings'
-  'social social social social social social'
-  'footer footer footer footer footer footer'
+          'header header header ratings ratings ratings'
+          'social social social social social social'
+          'footer footer footer footer footer footer';
+  grid-gap: 10px;
 }
 
 /* Header Section */
 .header {
   grid-area: header;
+  margin: 4rem auto 2rem 4rem;
+  padding: 2%;
+  width: 60%;
   background-color: pink;
+}
+
+h1 {
+  font-size: 2.5rem;;
 }
 
 /* Ratings Section */
 .ratings {
+  display: grid;
+  align-items: center;
+  grid-row-gap: 0;
+  grid-template-rows: auto auto auto;
   grid-area: ratings;
+  margin: 4rem 4rem 2rem auto;
   background-color: lightgreen;
+}
+h4 {
+  border: none;
 }
 
 /* Social Section */
 .social {
+  margin: 2rem 4rem 0 4rem;
+  text-align: center;
   grid-area: social;
   background-color: grey;
 }
 
 .user {
   display: inline-block;
-  width: 30%;
+  border-radius: 15px;
+  width: 28%;
   background-color: blue;
 }
 
