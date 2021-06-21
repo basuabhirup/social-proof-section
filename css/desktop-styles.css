@@ -6,7 +6,7 @@ body {
           'header header header ratings ratings ratings'
           'social social social social social social'
           'footer footer footer footer footer footer';
-  grid-gap: 10px;
+  grid-gap: 1rem;
 }
 
 /*-----------------------------------------------------------------*/
@@ -14,22 +14,21 @@ body {
 /* ---------------Header Section-------------------- */
 .header {
   grid-area: header;
-  margin: 10vw 5% 10vh 15vw;
+  margin: 10vw 5% 10vh 10vw;
   padding: 5% 5% 10vh;
-  min-width: 400px;
-  background-color: pink;
+  min-width: 440px;
+  color: hsl(300, 43%, 22%);
 }
 
 h1 {
   font-size: 3rem;
-  margin: 1rem 4.5rem 1rem 0;
-  line-height: 1;
+  margin: 1rem 4.5rem 1rem 0;;
 }
 
 .subheading {
-  font-size: 1.5rem;
-  margin: 1rem auto;
-  line-height: 1;
+  font-size: 1.6rem;
+  margin: 1rem 4rem 1rem 0;
+  line-height: 1.2;
 }
 
 /*-----------------------------------------------------------------*/
@@ -38,17 +37,19 @@ h1 {
 .ratings {
   display: grid;
   align-items: center;
+  grid-row-gap: 0;
   grid-template-rows: auto auto auto;
+  font-size: 1rem;
   grid-area: ratings;
-  margin: 10vw 15vw 10vh 5%;
+  margin: 8vw 10vw 10vh 5%;
   font-weight: bold;
-  background-color: lightgreen;
+  color: hsl(300, 43%, 22%);
 }
 
 .rating1 {
   display: inline-block;
-  background-color: lightgrey;
-  padding: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+  padding: 1rem;
   min-width: 296px;
   align-self: flex-end;
   border-radius: 10px;
@@ -57,8 +58,8 @@ h1 {
 }
 
 .rating2 {
-  background-color: lightgrey;
-  padding: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+  padding: 1rem;
   min-width: 296px;
   border-radius: 10px;
   margin: 0 2rem 0 6rem;
@@ -66,8 +67,8 @@ h1 {
 }
 
 .rating3 {
-  background-color: lightgrey;
-  padding: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+  padding: 1rem;
   min-width: 296px;
   align-self: flex-start;
   border-radius: 10px;
@@ -86,11 +87,10 @@ h4 {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  margin: 10vh 15vw;
+  margin: 10vh 10vw;
   justify-content: space-between;
   align-items: self-start;
   grid-area: social;
-  background-color: grey;
 }
 
 .user {
@@ -98,7 +98,7 @@ h4 {
   border-radius: 15px;
   padding: 10%;
   width:70%;
-  background-color: skyblue;
+  background-color: hsl(300, 43%, 22%);
 }
 
 img {
@@ -125,15 +125,16 @@ img {
 }
 
 .social-name {
-  font-weight: bold;
+  color: hsl(0, 0%, 100%);
 }
 
 .social-tag {
-  color: pink;
+  font-size: 0.9rem;
+  color: hsl(333, 80%, 67%);
 }
 
 .social-comment {
-  color: green;
+  color: hsl(300, 24%, 96%);
 }
 /*--------------------------------------------------------------------*/
 
@@ -145,9 +146,14 @@ img {
 .attribution {
   font-size: 0.67em;
   text-align: center;
-  padding: 0.4rem;
-  background-color: magenta;
+  padding: 0.6rem;
+  color: hsl(0, 0%, 70%);
+  background-color:  hsl(300, 43%, 22%);
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+a {
+  color: hsl(0, 0%, 80%)
+}
+.attribution a:hover {
+  color: hsl(0, 0%, 100%);
 }
