@@ -7,27 +7,31 @@ body {
           'social social social social social social'
           'footer footer footer footer footer footer';
   grid-gap: 1rem;
+  font-family: 'Spartan', sans-serif;
 }
 
 /*-----------------------------------------------------------------*/
 
 /* ---------------Header Section-------------------- */
 .header {
+  display: inline-block;
   grid-area: header;
   margin: 6.5vw 5% 1vh 10vw;
-  padding: 5% 5% 10vh;
+  padding: 5%;
   min-width: 440px;
   color: hsl(300, 43%, 22%);
 }
 
 h1 {
-  font-size: 3rem;
-  margin: 1rem 7.5rem 1rem 0;;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 1rem 6rem 1rem 0;;
 }
 
 .subheading {
-  font-size: 1.25rem;
-  margin: 1rem 10rem 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 1rem 6rem 1rem 0;
   line-height: 1.2;
 }
 
@@ -40,6 +44,7 @@ h1 {
   grid-row-gap: 0;
   grid-template-rows: auto auto auto;
   font-size: 1rem;
+  font-weight: 400;
   grid-area: ratings;
   margin: 6vw 10vw 1vh 5%;
   font-weight: bold;
@@ -48,7 +53,7 @@ h1 {
 
 .rating1 {
   display: inline-block;
-  background-color: hsl(300, 24%, 96%);
+  background-color: hsl(300, 24%, 92%);
   padding: 1rem;
   min-width: 296px;
   align-self: flex-end;
@@ -58,7 +63,7 @@ h1 {
 }
 
 .rating2 {
-  background-color: hsl(300, 24%, 96%);
+  background-color: hsl(300, 24%, 92%);
   padding: 1rem;
   min-width: 296px;
   border-radius: 10px;
@@ -67,7 +72,7 @@ h1 {
 }
 
 .rating3 {
-  background-color: hsl(300, 24%, 96%);
+  background-color: hsl(300, 24%, 92%);
   padding: 1rem;
   min-width: 296px;
   align-self: flex-start;
@@ -87,7 +92,7 @@ h4 {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  margin: 1vh 10vw;
+  margin: 2.5vh 10vw;
   justify-content: space-between;
   align-items: self-start;
   grid-area: social;
@@ -97,7 +102,7 @@ h4 {
   display: inline-block;
   border-radius: 15px;
   padding: 10% 10% 15%;
-  width:60%;
+  width:70%;
   background-color: hsl(300, 43%, 22%);
 }
 
@@ -126,15 +131,16 @@ img {
 
 .social-name {
   color: hsl(0, 0%, 100%);
+  font-weight: 700;
 }
 
 .social-tag {
-  font-size: 0.9rem;
+  font-weight: 100;
   color: hsl(333, 80%, 67%);
 }
 
 .social-comment {
-  color: hsl(300, 24%, 96%);
+  color: hsl(300, 24%, 94%);
   display: inline-block;
   margin: auto;
 }
