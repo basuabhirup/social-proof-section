@@ -1,6 +1,6 @@
 /* Made the whole Body a css grid */
 body {
-  margin: 0;
+  margin: 0 auto;
   display: grid;
   grid-template-areas:
           'header header header ratings ratings ratings'
@@ -14,8 +14,9 @@ body {
 /* ---------------Header Section-------------------- */
 .header {
   grid-area: header;
-  margin: 20% auto 5% 25%;
-  padding: 5%;
+  margin: 10vw 5% 10vh 15vw;
+  padding: 5% 5% 10vh;
+  min-width: 400px;
   background-color: pink;
 }
 
@@ -39,7 +40,7 @@ h1 {
   align-items: center;
   grid-template-rows: auto auto auto;
   grid-area: ratings;
-  margin: 20% 25% 5% auto;
+  margin: 10vw 15vw 10vh 5%;
   font-weight: bold;
   background-color: lightgreen;
 }
@@ -48,27 +49,30 @@ h1 {
   display: inline-block;
   background-color: lightgrey;
   padding: 0.5rem;
-  min-width: 19.2rem;
+  min-width: 296px;
   align-self: flex-end;
   border-radius: 10px;
-  margin: 0 12rem 0 auto;
+  margin: 0 2rem 0 2rem;
+  width: max-content;
 }
 
 .rating2 {
   background-color: lightgrey;
   padding: 0.5rem;
-  min-width: 19.2rem;
+  min-width: 296px;
   border-radius: 10px;
-  margin: 0 6rem 0 auto;
+  margin: 0 2rem 0 6rem;
+  width: max-content;
 }
 
 .rating3 {
   background-color: lightgrey;
   padding: 0.5rem;
-  min-width: 19.2rem;
+  min-width: 296px;
   align-self: flex-start;
   border-radius: 10px;
-  margin: 0 0 0 auto;
+  margin: 0 2rem 0 10rem;
+  width: max-content;
 }
 
 h4 {
@@ -82,8 +86,9 @@ h4 {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  margin: 5% 10%;
+  margin: 10vh 15vw;
   justify-content: space-between;
+  align-items: self-start;
   grid-area: social;
   background-color: grey;
 }
@@ -92,21 +97,44 @@ h4 {
   display: inline-block;
   border-radius: 15px;
   padding: 10%;
+  width:70%;
   background-color: skyblue;
+}
+
+img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 20px;
 }
 
 .Colton {
   text-align: left;
+  margin: 2%;
 }
 
 .Roberts {
-  align-self: center;
+  text-align: left;
+  margin: 15% 4%;
 }
 
 .Anne {
-  align-self: right;
+  text-align: left;
+  margin: 28% 4%;
 }
 
+.social-name {
+  font-weight: bold;
+}
+
+.social-tag {
+  color: pink;
+}
+
+.social-comment {
+  color: green;
+}
 /*--------------------------------------------------------------------*/
 
 /* --------------------Footer section---------------------- */
@@ -117,6 +145,7 @@ h4 {
 .attribution {
   font-size: 0.67em;
   text-align: center;
+  padding: 0.4rem;
   background-color: magenta;
 }
 .attribution a {
