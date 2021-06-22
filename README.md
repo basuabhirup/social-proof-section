@@ -4,15 +4,13 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Table of contents
 
--[Overview](#overview)
+- [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-  - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
-
+- [Author](#author)
 
 ## Overview
 
@@ -39,7 +37,6 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 - HTML5
 - CSS3
 - CSS Grid
-- Mobile-first workflow
 
 
 ### What I learned
