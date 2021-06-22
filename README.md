@@ -4,6 +4,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Table of contents
 
+-[Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
