@@ -4,18 +4,15 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ## Table of contents
 
-- [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-
-## Overview
+  - [Author](#author)
 
 
-### Screenshot
+## Screenshot
 
 ![Project-Desktop-View](./screenshots/project-desktop.png)
 ![Project-Mobile-View](./screenshots/project-mobile.png)
@@ -25,21 +22,20 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 
 
-### Links
+## Links
 
 - Solution URL: [GitHub](https://github.com/basuabhirup/social-proof-section)
 - Live Site URL: [Vercel](https://social-proof-section-basuabhirup.vercel.app/)
 
-## My process
 
-### Built with
+## Built with
 
 - HTML5
 - CSS3
 - CSS Grid
 
 
-### What I learned
+## What I learned
 
 Gained experience in working with CSS grid layout. Also I used the html span elements to group and seperate sentences to make them adaptable with the screen width resolution.
 
@@ -60,7 +56,7 @@ Gained experience in working with CSS grid layout. Also I used the html span ele
 ```
 
 
-### Useful resources
+## Useful resources
 
 - [W3 Schools](https://www.w3schools.com/cssref/default.asp) 
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn) 
