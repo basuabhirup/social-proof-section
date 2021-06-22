@@ -6,7 +6,6 @@ body {
           'header header header ratings ratings ratings'
           'social social social social social social'
           'footer footer footer footer footer footer';
-  grid-gap: 1rem;
   font-family: 'Spartan', sans-serif;
 }
 
@@ -149,19 +148,23 @@ img {
 /* --------------------Footer section---------------------- */
 .footer {
   grid-area: footer;
+  font-weight: 400;
 }
 
 .attribution {
-  font-size: 0.67em;
+  font-size: 0.67rem;
   text-align: center;
+  line-height: 1.25;
   padding: 0.6rem;
   color: hsl(0, 0%, 70%);
   background-color:  hsl(300, 43%, 22%);
 }
 
 a {
-  color: hsl(0, 0%, 80%)
+  color: hsl(0, 0%, 80%);
+  text-decoration: none;
 }
+
 .attribution a:hover {
   color: hsl(0, 0%, 100%);
 }
