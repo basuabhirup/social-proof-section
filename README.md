@@ -17,8 +17,8 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![Project-Desktop-View](./screenshot.jpg)
-![Project-Mobile-View](./screenshot.jpg)
+![Project-Desktop-View](./screenshots/project-desktop.png)
+![Project-Mobile-View](./screenshots/project-monile.png)
 
 
 
